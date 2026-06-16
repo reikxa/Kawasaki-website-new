@@ -1,0 +1,811 @@
+<!--Teacher, I use the Prettier extension to keep my code clean and make it easier to spot bugs-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kawasaki Motorcycles, ATV, SxS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/ETEC Front-End/bootstrap Project/Photos/logo k1.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      background-color: black;
+      color: white;
+      font-family: &quot;Roboto&quot;, sans-serif;
+      padding-top: 56px;
+    "
+  >
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="
+        background-color: black !important;
+        border-bottom: 3px solid #66cc33;
+      "
+    >
+      <div class="container">
+        <img
+          style="width: 95px; height: 70px"
+          src="/ETEC Front-End/bootstrap Project/Photos/logo kawasaki.png"
+          alt="logo"
+        />
+        <a
+          class="navbar-brand"
+          href="Kawasaki.html"
+          style="
+            font-family: &quot;Oswald&quot;, sans-serif;
+            font-weight: 700;
+            color: white !important;
+            letter-spacing: 2px;
+          "
+          >KAWASAKI</a
+        >
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="Motorcycles.html"
+                >Motorcycles</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="ATV.html">ATV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="SXS.html"
+                >Side x Side</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="Watercraft.html"
+                >Watercraft</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <input class="p-1" type="search" placeholder="Search" />
+        <button
+          style="background-color: #00000000; color: white; border: none"
+          type="submit"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+            />
+          </svg>
+        </button>
+        <div>
+          <button style="border: none; background: #00000000">
+            <a href="register.html">
+              <svg
+                style="color: white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-person-circle"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                />
+              </svg>
+            </a>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      style="
+        position: relative;
+        background-color: #000000;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #66cc33;
+        width: 100%;
+      "
+    >
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        style="
+          width: 100%;
+          height: auto;
+          min-height: 400px;
+          object-fit: cover;
+          display: block;
+        "
+      >
+        <source
+          src="/ETEC Front-End/bootstrap Project/Video slide/Ninja h2r.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.4);
+          display: flex;
+          align-items: center;
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-start ps-4 pt-5">
+              <h1
+                class="display-3 fw-bold m-0 text-white"
+                style="
+                  font-family: Oswald, sans-serif;
+                  text-transform: uppercase;
+                  line-height: 1.1;
+                "
+              >
+                Best Reseller <br />
+                <span style="color: #66cc33">NINJA H2R</span>
+              </h1>
+              <a
+                href="shop h2r.html"
+                class="btn text-uppercase"
+                style="
+                  background-color: #66cc33;
+                  color: #000;
+                  font-weight: bold;
+                  border-radius: 0;
+                  padding: 12px 30px;
+                  font: size 25px;
+                "
+                >Shop Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-black">
+      <div class="container">
+        <h2
+          class="text-start mb-4 border-bottom border-secondary pb-2"
+          style="font-family: &quot;Oswald&quot;, sans-serif"
+        >
+          Offers & Promotions
+        </h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="
+                background-color: #111111;
+                border: 1px solid #222222;
+                border-radius: 0;
+                color: white;
+                overflow: hidden;
+              "
+            >
+              <img
+                src="/ETEC Front-End/bootstrap Project/Photos/h2r-rb.png"
+                class="card-img-top"
+                alt="Offer 1"
+                style="
+                  border-radius: 0;
+                  width: 100%;
+                  height: auto;
+                  object-fit: cover;
+                "
+              />
+              <div class="card-body p-4">
+                <h3
+                  class="display-6 fw-bold"
+                  style="
+                    font-family: &quot;Oswald&quot;, sans-serif;
+                    color: #66cc33;
+                  "
+                >
+                  SAVE UP TO $3,000*
+                </h3>
+                <p
+                  class="card-text fw-bold text-uppercase text-white"
+                  style="font-size: 0.9rem"
+                >
+                  Kawasaki Ninja H2R
+                </p>
+                <p class="small text-white-50">
+                  Price: $59,100 <del>$62,100</del>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="
+                background-color: #111111;
+                border: 1px solid #222222;
+                border-radius: 0;
+                color: white;
+                overflow: hidden;
+              "
+            >
+              <img
+                src="/ETEC Front-End/bootstrap Project/Photos/h2-rb.png"
+                class="card-img-top"
+                alt="Offer 2"
+                style="
+                  border-radius: 0;
+                  width: 100%;
+                  height: auto;
+                  object-fit: cover;
+                "
+              />
+              <div class="card-body p-4">
+                <h3
+                  class="display-6 fw-bold"
+                  style="
+                    font-family: &quot;Oswald&quot;, sans-serif;
+                    color: #66cc33;
+                  "
+                >
+                  SAVE UP TO $4,400*
+                </h3>
+                <p
+                  class="card-text fw-bold text-uppercase text-white"
+                  style="font-size: 0.9rem"
+                >
+                  Kawasaki Ninja H2
+                </p>
+                <p class="small text-white-50">
+                  Price: $30,000 <del>$34,400</del>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="
+                background-color: #111111;
+                border: 1px solid #222222;
+                border-radius: 0;
+                color: white;
+                overflow: hidden;
+              "
+            >
+              <img
+                src="/ETEC Front-End/bootstrap Project/Photos/ninja400.png"
+                class="card-img-top"
+                alt="Offer 3"
+                style="
+                  border-radius: 0;
+                  width: 100%;
+                  height: auto;
+                  object-fit: cover;
+                "
+              />
+              <div class="card-body p-4">
+                <h3
+                  class="display-6 fw-bold"
+                  style="
+                    font-family: &quot;Oswald&quot;, sans-serif;
+                    color: #66cc33;
+                  "
+                >
+                  SAVE UP TO $1,000*
+                </h3>
+                <p
+                  class="card-text fw-bold text-uppercase text-white"
+                  style="font-size: 0.9rem"
+                >
+                  Kawasaki Ninja ZX-4R
+                </p>
+                <p class="small text-white-50">
+                  Price: $8,299 <del>$9,299</del>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-custom-outline px-4 py-2"
+            >+ View All Offers</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-dark">
+      <div class="container">
+        <h2
+          class="text-start mb-4 border-bottom border-secondary pb-2"
+          style="font-family: &quot;Oswald&quot;, sans-serif"
+        >
+          Featured Vehicles
+        </h2>
+        <div class="row text-center g-4">
+          <div class="col-md-4">
+            <div class="p-3">
+              <img
+                src="https://content2.kawasaki.com/ContentStorage/KMC/Products/9941/d18c701f-bdc2-424d-80f2-0d37a0fbc291.png?w=784&h=440"
+                class="img-fluid mb-3"
+                alt="KX 327X"
+              />
+              <p class="mb-1 fw-bold" style="color: #66cc33">NEW 2027</p>
+              <h4 style="font-family: &quot;Oswald&quot;, sans-serif">
+                KX™ 327X
+              </h4>
+              <p class="text-muted mb-1">MSRP $8,699</p>
+              <span
+                class="badge text-black fw-bold"
+                style="background-color: #66cc33"
+                >AVAILABLE LATE 2026</span
+              >
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3">
+              <img
+                src="https://content2.kawasaki.com/ContentStorage/KMC/Products/9938/9f9da761-35df-4044-b04d-bf6cf4610b42.png?w=784&h=440"
+                class="img-fluid mb-3"
+                alt="KX 450F"
+              />
+              <p class="mb-1 fw-bold" style="color: #66cc33">NEW 2027</p>
+              <h4 style="font-family: &quot;Oswald&quot;, sans-serif">
+                KX™ 450F
+              </h4>
+              <p class="text-muted mb-1">MSRP $10,299</p>
+              <span
+                class="badge text-black fw-bold"
+                style="background-color: #66cc33"
+                >AVAILABLE LATE 2026</span
+              >
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3">
+              <img
+                src="https://content2.kawasaki.com/ContentStorage/KMC/Products/9936/5e519be5-76bc-49ba-bb3c-d219b187635d.png?w=784&h=440"
+                class="img-fluid mb-3"
+                alt="KX 250F"
+              />
+              <p class="mb-1 fw-bold" style="color: #66cc33">NEW 2027</p>
+              <h4 style="font-family: &quot;Oswald&quot;, sans-serif">
+                KX™ 250F
+              </h4>
+              <p class="text-muted mb-1">MSRP $8,599</p>
+              <span
+                class="badge text-black fw-bold"
+                style="background-color: #66cc33"
+                >AVAILABLE LATE 2026</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--teacher I used the cdnjs link here to easily import and use icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <footer
+      class="py-5 text-white"
+      style="
+        background-color: #111111;
+        font-family: &quot;Roboto&quot;, sans-serif;
+        font-size: 0.85rem;
+      "
+    >
+      <div class="container">
+        <div class="row g-4 border-bottom border-secondary pb-5">
+          <div class="col-md-4">
+            <h5
+              class="fw-bold mb-3 text-uppercase"
+              style="
+                font-family: &quot;Oswald&quot;, sans-serif;
+                letter-spacing: 1px;
+                font-size: 1.2rem;
+              "
+            >
+              ABOUT KAWASAKI
+            </h5>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled lh-lg">
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Kawasaki History</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Kawasaki Companies</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >International Sites</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled lh-lg">
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Kawasaki Technology</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Legal Policies</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Corporate Careers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Manufacturing Careers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Transparency In Coverage</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h5
+              class="fw-bold mt-4 mb-3 text-uppercase"
+              style="
+                font-family: &quot;Oswald&quot;, sans-serif;
+                letter-spacing: 1px;
+                font-size: 1.2rem;
+              "
+            >
+              NEWS
+            </h5>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled lh-lg">
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Awards & Reviews</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Press Releases</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Recalls</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled lh-lg">
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Events</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5
+              class="fw-bold mb-3 text-uppercase"
+              style="
+                font-family: &quot;Oswald&quot;, sans-serif;
+                letter-spacing: 1px;
+                font-size: 1.2rem;
+              "
+            >
+              RESOURCES
+            </h5>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled lh-lg">
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Corporate Contact Info</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Kawasaki Support</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Safety Resources</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled lh-lg">
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Racing Contingency</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Industry Links</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >Patents</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      class="text-white-50 text-decoration-none footer-link"
+                      >E-Commerce Help Center</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h5
+              class="fw-bold mt-4 mb-3 text-uppercase"
+              style="
+                font-family: &quot;Oswald&quot;, sans-serif;
+                letter-spacing: 1px;
+                font-size: 1.2rem;
+              "
+            >
+              DEALER INFO
+            </h5>
+            <ul class="list-unstyled lh-lg">
+              <li>
+                <a
+                  href=""
+                  class="text-white-50 text-decoration-none footer-link"
+                  >Dealer Locator</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-white-50 text-decoration-none footer-link"
+                  >Become a Dealer</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5
+              class="fw-bold mb-3 text-uppercase"
+              style="
+                font-family: &quot;Oswald&quot;, sans-serif;
+                letter-spacing: 1px;
+                font-size: 1.2rem;
+              "
+            >
+              STAY CONNECTED
+            </h5>
+            <p class="text-white-50 mb-3">
+              Receive the latest news, special offers and exclusives.
+            </p>
+            <button
+              class="btn btn-subscribe text-uppercase fw-bold d-flex align-items-center px-3 py-2 mb-3"
+              style="
+                background-color: #66cc33;
+                color: black;
+                border-radius: 0;
+                font-size: 14px;
+                letter-spacing: 1px;
+              "
+            >
+              SUBSCRIBE
+            </button>
+
+            <a
+              href=""
+              class="text-white-50 text-decoration-none footer-link d-block mt-2"
+              >Manage Subscription Preferences</a
+            >
+          </div>
+        </div>
+        <div
+          class="row pt-4 align-items-center text-white-50"
+          style="font-size: 0.8rem"
+        >
+          <div class="col-lg-5 text-center text-lg-start mb-3 mb-lg-0">
+            <p class="mb-2">
+              &copy; 2026 Kawasaki Motors Corp., U.S.A.
+              <a
+                href=""
+                class="text-white text-decoration-underline footer-link"
+                >Your Privacy Rights</a
+              >
+            </p>
+            <div
+              class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-2"
+            >
+              <a
+                href=""
+                class="text-white-50 text-decoration-underline footer-link"
+                >CA Privacy Rights</a
+              >
+              |
+              <a
+                href=""
+                class="text-white-50 text-decoration-underline footer-link"
+                >Terms of Use</a
+              >
+              |
+              <a
+                href=""
+                class="text-white-50 text-decoration-underline footer-link"
+                >About Ads</a
+              >
+              |
+              <a
+                href=""
+                class="text-white-50 text-decoration-underline footer-link"
+                >Do Not Sell or Share My Personal Information</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 text-center mb-3 mb-lg-0">
+            <p class="mb-2 small text-uppercase fw-bold">
+              Download the Kawasaki Connect App:
+            </p>
+            <div class="d-flex justify-content-center gap-2">
+              <a
+                href="https://apps.apple.com/us/app/kawasaki-connect/id1052412399"
+                class="btn btn-dark btn-sm d-flex align-items-center px-2 py-1"
+                style="
+                  border: 1px solid #444;
+                  background-color: black;
+                  border-radius: 5px;
+                "
+              >
+                <i class="fa-brands fa-apple fa-2x me-2 text-white"></i>
+                <div
+                  class="text-start text-white"
+                  style="font-size: 11px; line-height: 1"
+                >
+                  Download on the<br /><strong style="font-size: 12px"
+                    >App Store</strong
+                  >
+                </div>
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.kawasaki.kawasakiconnectv3"
+                class="btn btn-dark btn-sm d-flex align-items-center px-2 py-1"
+                style="
+                  border: 1px solid #444;
+                  background-color: black;
+                  border-radius: 5px;
+                "
+              >
+                <i class="fa-brands fa-google-play fa-lg me-2 text-white"></i>
+                <div
+                  class="text-start text-white"
+                  style="font-size: 11px; line-height: 1"
+                >
+                  GET IT ON<br /><strong style="font-size: 12px"
+                    >Google Play</strong
+                  >
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 text-center text-lg-end fs-5">
+            <a
+              href="https://web.facebook.com/kawasaki?_rdc=1&_rdr#"
+              class="text-white mx-2 social-icon"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://x.com/KawasakiUSA"
+              class="text-white mx-2 social-icon"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/KawasakiUSA"
+              class="text-white mx-2 social-icon"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/c/KawasakiUSA"
+              class="text-white mx-2 social-icon"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F49550%2F"
+              class="text-white mx-2 social-icon"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://www.tiktok.com/@kawasakiusa_"
+              class="text-white mx-2 social-icon"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

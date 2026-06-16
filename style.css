@@ -1,0 +1,43 @@
+.nav-link-custom {
+  color: white !important;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  padding: 0 15px !important;
+  transition: color 0.2s ease-in-out;
+}
+.nav-link-custom:hover {
+  color: #66cc33 !important;
+}
+.btn-custom-outline {
+  border: 2px solid white !important;
+  color: white !important;
+  background-color: transparent !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.btn-custom-outline:hover {
+  background-color: #66cc33 !important;
+  border-color: #66cc33 !important;
+  color: white !important;
+}
+.footer-link:hover {
+  color: white !important;
+}
+.social-icon:hover i {
+  color: #66cc33 !important;
+  transition: color 0.001s ease-in-out;
+}
+/*=============register=============*/
+.brand-header {
+  border-bottom: 4px solid #4eb84e;
+  padding: 20px 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.btn-subscribe {
+  border-radius: 0px !important;
+}
